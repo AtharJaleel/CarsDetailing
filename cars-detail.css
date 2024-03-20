@@ -1,0 +1,48 @@
+h1,
+h2 {
+  color: white;
+  /* background-color: lightblue; */
+  border-radius: 10px;
+  background-color: rgb(7, 48, 48);
+}
+
+hr {
+  color: brown;
+}
+
+body {
+  background: url(Car-Showroom-6.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 6vh;
+  /* vh view height */
+  padding: 500px;
+  padding-top: 100px;
+}
+
+a {
+  /* border: 1px solid; */
+  border-radius: 10px;
+  border-color: white;
+  padding: 8px;
+  text-decoration: none;
+  font-size: large;
+  color: white;
+  background-color: rgb(7, 48, 48);
+}
+
+a:hover {
+  /* border: 2px solid;
+  border-radius: 8px; */
+  background-color: lightblue;
+  transition: 0.5s;
+}
+
+.container {
+  /* border: 1px solid; */
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 300px;
+  padding: 45px;
+  text-align: center;
+}
